@@ -84,7 +84,7 @@ line-height: 40px;
 }
 .first-par{
     position: relative;
-    left: 10px;
+    right: 45px;
     top: 111px;
     text-transform: uppercase;
     font-style: normal;
