@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    overflow-x: hidden;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+    background: none;
+}
+.main-menu{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    list-style-type: none;
+    background: none;
+}
+.main-menu li a{
+    color: black;
+    text-decoration: none;
+    align-self: center;
+    width: 613px;
+height: 40px;
+left: 403px;
+top: 46px;
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+  
+}
+#logo{
+    width: 275px;
+    height: 81px;
+    left: 46px;
+    top: 18px;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 68px;
+    color: #000000;
+}
+.main-img{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(../img/photo-of-woman-wearing-black-scarf-2036647.jpg);
+    background-position: 5px;
+    width: 100%;
+    height: 650px;
+}
+.main-btn{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    left: 457px;
+    top: 393px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.main-btn p{
+    position: absolute;
+    width: 305px;
+    height: 42px;
+    left: 0;
+    top: 15px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #000000;
+}
+.first-par{
+    position: relative;
+    left: 10px;
+    top: 111px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.5em;
+
+    color: #FFFFFF;
+}
+.secand-par{
+    position: relative;
+    width: 286px;
+    height: 68px;
+    left: 480px;
+    top: 103px;
+    font-size: 36px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+.third-par{
+    position: relative;
+    width: 560px;
+    height: 91px;
+    left: 334px;
+    top: 101px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 102px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+.fourth-par{
+    position: relative;
+    width: 570px;
+    height: 31px;
+    left: 334px;
+    top: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+}
+.big-foto{
+    width: 50%;
+    height: 700px;
+    left: 0px;
+    top: 787px;
+    background: url(../img/women-s-grey-spaghetti-strap-dress-3370901.jpg);
+    background-position: right;
+    background-size: cover;
+}
+.text-log-big-foto{
+    position: absolute;
+    width: 168px;
+    height: 103px;
+    left: 16px;
+    top: 905px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.big-foto hr{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 15.99px;
+    top: 885.79px;
+    border: 1px solid #FFFFFF;
+}
+.big-foto-clothes{
+    position: absolute;
+    width: 50%;
+    height: 17px;
+    display:flex;
+    left: 18px;
+    top: 838px;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.collection
+{
+    display: flex;
+}
+.littel-foto{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    max-width: 350px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop-now{
+    width: 171px;
+    height: 53px;
+    margin-left: 90px;
+    margin-top: 40px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 53px;
+}
+.simpe-text{
+    width: 350px;
+    height: 350px;
+    background: #F3F3F3;
+}
+.img-girl{
+   background: url(../img/woman-in-knitted-turtleneck-shirt-in-orange-background-3755918.jpg);
+   background-position: center;
+   width: 350px;
+   height: 350px;
+}
+.img-women{
+    background-image: url(../img/women-s-pink-sweatshirt-and-brown-plaid-skirt-794064.jpg);
+    background-position: center;
+    width: 350px;
+    height: 350px;
+}
+.shoes{
+    background-image: url(../img/photo-of-sneakers-on-white-background-2529148.jpg);
+    background-position: center;
+    width: 350px;
+    height: 350px;
+}
+.shoes p:last-child{
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.shoes p:first-child{
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+.simpe-text{
+    padding-top: 90px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    font-weight: bold;
+}
+.simple-second-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.25em;
+}
+.img-girl-cap{
+    background-image: url(../img/girl-cap.jpg);
+    background-position: 20px right;
+    width: 100%;
+    height: 550px;
+}
+.text-for-img{
+    width: 70%;
+    padding-top: 120px;
+
+}
+.text-for-img hr{
+    width: 15%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 50px 40%;
+    line-height: 50px;
+}
+.text-accessories p:first-child{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    font-weight: bold;
+}
+.text-accessories p:last-child{
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    font-weight: bold;
+}
+.text-for-access{
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: rgb(77, 77, 77);
+    line-height: 30px;
+}
+.shop-btn{
+    font-size: 20px;
+    width: 22%;
+    margin-left: 37%;
+    margin-top: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
